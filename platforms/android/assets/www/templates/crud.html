@@ -1,0 +1,26 @@
+<div class="modal">
+    <ion-header-bar>
+        <h1 class="title">New Task</h1>
+        <div class="buttons">
+            <button class="button button-clear" ng-click="closeForm()">Close</button>
+        </div>
+    </ion-header-bar>
+    <ion-content>
+        <form ng-submit="createTask()">
+            <div class="list">
+                <label class="item item-input">
+                    <span class="input-label">Task Text</span>
+                    <input type="text" ng-model="newTask.text">
+                </label>
+                <!--<label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" ng-model="loginData.password">
+                </label>-->
+                <label class="item">
+                    <button class="button button-block button-positive" type="submit">Submit</button>
+                </label>
+            </div>
+        </form>
+    </ion-content>
+</div>
+

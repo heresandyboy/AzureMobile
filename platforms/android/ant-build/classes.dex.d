@@ -1,0 +1,20 @@
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes.dex : \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$1.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$2.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\BuildConfig.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\HelloCordova.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\R$attr.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\R$drawable.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\R$string.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\R$xml.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\andysazure\R.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\BuildConfig.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\HelloCordova.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\R$attr.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\R$drawable.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\R$string.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\R$xml.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\com\ionicframework\starter\R.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
+E:\Andy\ionic\AzureMobile\platforms\android\ant-build\dexedLibs\classes-5c9a2e1dc166fe162bbc112092c3d0dd.jar \

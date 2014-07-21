@@ -1,0 +1,30 @@
+<ion-view title="Service Alerts">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header" overflow-scroll="true"> <!--overflow-scroll="true"-->
+      <div class="list">
+              <span ng-repeat="task in tasks | orderBy:predicate:reverse">
+                  <span ng-if="task.text">
+                      <a class="item item-icon-right" href="#/app/servicealerts/{{task.id}}">
+                          <h2>{{task.text}}</h2>
+                          <p ng-if="task.done">Complete</p>
+                          <p class="pull-right">{{task.CreatedAt.toDateString()}}</p>
+                          <i class="icon ion-chevron-right"></i>
+                      </a>
+                  </span>
+                 </span>
+      </div>
+      </div>
+<!--    <ion-list>
+        <ion-item ng-repeat="task in tasks" href="#/app/servicealerts/{{task.id}}">
+           <p>{{task.text}}</p>
+            <i class="icon ion-chevron-right"></i>
+        </ion-item>
+    </ion-list>-->
+  </ion-content>
+    <ion-footer-bar class="bar bar-footer bar-positive">
+        <button ng-click="openForm()" class="button button-icon icon ion-android-add pull-right">Feedback</button>
+        <a href="https://andyainsworth.azure-mobile.net/tables/task/:id?__systemProperties=*">TRY THIS</a>
+    </ion-footer-bar>
+</ion-view>

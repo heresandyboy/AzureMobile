@@ -45,9 +45,9 @@ angular.module('mobileServices', ['ngResource']) // new service mobileServices d
 
                         // Online, with no or expired data
                     } else {
-                        console.log('<<<<< ONLINE, from AZURE >>>>>');
-                        data = $http
-                            .get('http://status.zen.co.uk/rss/broadband-maintenance-rss.ashx')
+                        console.log('<<<<< ONLINE, from RSS >>>>>');
+                        var data = $http
+                            .jsonp('https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://status.zen.co.uk/rss/broadband-maintenance-rss.ashx&callback=JSON_CALLBACK')
                             .then(function (response) {
                                 localStorage["sessions"] = angular.toJson(response.data);
                                 localStorage["timestamp"] = new Date().getTime();

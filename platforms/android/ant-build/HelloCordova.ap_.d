@@ -51,9 +51,9 @@ E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\1app.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\1controllers.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\2app.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\2controllers.js \
+E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\3-mobile-service.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\3app.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\3controller.js \
-E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\3mobile-service.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\app.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\controllers.js \
 E:\Andy\ionic\AzureMobile\platforms\android\assets\www\js\mobile-service.js \

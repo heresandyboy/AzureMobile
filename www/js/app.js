@@ -20,6 +20,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices'])
         });
     })
 
+    .directive('myMaxlength', function() {
+        return {
+            require: 'ngModel',
+            link: function (scope, element, attrs, ngModelCtrl) {
+                var maxlength = Number(attrs.myMaxlength);
+                function fromUser(text) {
+                    if (text.length > maxlength) {
+                        var transformedInput = text.substring(0, maxlength);
+                        ngModelCtrl.$setViewValue(transformedInput);
+                        ngModelCtrl.$render();
+                        return transformedInput;
+                    }
+                    return text;
+                }
+                ngModelCtrl.$parsers.push(fromUser);
+            }
+        };
+    })
+
     .config(['$httpProvider', function ($httpProvider) { // configuring the httpProvider
         $httpProvider.defaults.headers.common['X-ZUMO-APPLICATION'] = 'RkahlgSDnwpkXUfLBfySnWDcRDZICp27'; // add the application key
         $httpProvider.defaults.headers.common['Content-Type'] = 'Application/json';
@@ -57,7 +76,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices'])
                 views: {
                     'menuContent' :{
                         templateUrl: "templates/playlists.html",
-                        controller: 'PlaylistsCtrl'
+                        controller: 'BtMaintenanceCtrl'
                     }
                 }
             })
@@ -92,6 +111,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices'])
                 }
             });
         // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/app/servicealerts');
+        $urlRouterProvider.otherwise('/app/playlists');
     });
 

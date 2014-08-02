@@ -1,30 +1,38 @@
-<ion-view title="Service Alerts">
+<ion-view title="Feedback">
   <ion-nav-buttons side="left">
     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
   </ion-nav-buttons>
-  <ion-content class="has-header" overflow-scroll="true"> <!--overflow-scroll="true"-->
-      <div class="list">
+  <ion-content class="has-header"> <!--overflow-scroll="true"-->
+<!--      <div class="list">
               <span ng-repeat="task in tasks | orderBy:predicate:reverse">
                   <span ng-if="task.text">
-                      <a class="item item-icon-right" href="#/app/servicealerts/{{task.id}}">
-                          <h2>{{task.text}}</h2>
-                          <p ng-if="task.done">Complete</p>
-                          <p class="pull-right">{{task.CreatedAt.toDateString()}}</p>
+                      <a class="item item-icon-right list card" href="#/app/servicealerts/{{task.id}}">
+                          <h2>  {{task.text}}</h2>
+                          <p ng-if="task.done">  Status: Complete</p>
+                          <p class="pull-right">  Created: {{task.__createdAt | date:'dd/MM/yyyy HH:mm:ss'}}</p>
                           <i class="icon ion-chevron-right"></i>
                       </a>
                   </span>
                  </span>
       </div>
-      </div>
-<!--    <ion-list>
-        <ion-item ng-repeat="task in tasks" href="#/app/servicealerts/{{task.id}}">
-           <p>{{task.text}}</p>
-            <i class="icon ion-chevron-right"></i>
+      </div>-->
+    <ion-list>
+        <ion-item class="item item-icon-left item-icon-right list card" ng-repeat="task in tasks | orderBy:predicate:reverse" href="#/app/servicealerts/{{task.id}}">
+
+                <i ng-if="task.done" class="icon ion-android-checkmark balanced"></i>
+                <i ng-if="!task.done" class="icon  ion-alert assertive"></i>
+                <!--{{task.text}}
+                <p ng-if="task.done" class="item-icon-right pull-right ion-android-checkmark"> Complete</p>-->
+                <h1 class="energized">{{task.text}}</h1>
+                <p class="pull-right">  Created: {{task.__createdAt | date:'dd/MM/yyyy HH:mm:ss'}}</p>
+                <i class="icon ion-chevron-right "></i>
+           
+
         </ion-item>
-    </ion-list>-->
+    </ion-list>
   </ion-content>
     <ion-footer-bar class="bar bar-footer bar-positive">
         <button ng-click="openForm()" class="button button-icon icon ion-android-add pull-right">Feedback</button>
-        <a href="https://andyainsworth.azure-mobile.net/tables/task/:id?__systemProperties=*">TRY THIS</a>
+        <!--<a href="https://andyainsworth.azure-mobile.net/tables/task/:id?__systemProperties=*">TRY THIS</a>-->
     </ion-footer-bar>
 </ion-view>

@@ -1,12 +1,22 @@
-<ion-view title="Playlists">
+<ion-view title="{{ maintenance.responseData.feed.title }}" scroll="true">
   <ion-nav-buttons side="left">
     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
   </ion-nav-buttons>
   <ion-content class="has-header">
+      <label class="item item-input list card ion-ios7-telephone">
+          <span class="input-label">Filter</span>
+          <input class="item-divider" type="tel" ng-model="search" placeholder="Enter 5 Number Prefix" my-maxlength="5">
+      </label>
     <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+      <ion-item class="item-text-wrap list card" ng-repeat="entry in maintenance.responseData.feed.entries | filter:search" href="#/app/playlists/{{alert.id}}">
+
+          <h2 class="assertive" ng-bind="entry.title"></h2>
+          <br />
+          <span ng-bind-html="entry.content"></span>
+
+
       </ion-item>
     </ion-list>
+          </div>
   </ion-content>
 </ion-view>

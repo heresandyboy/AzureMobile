@@ -1,11 +1,31 @@
-<ion-view title="Playlists">
+<ion-view title="{{ maintenance.responseData.feed.title }}" scroll="true">
   <ion-nav-buttons side="left">
     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
   </ion-nav-buttons>
   <ion-content class="has-header">
+      <a class="item item-input item-icon-left item-icon-right list card">
+          <i class="ion-ios7-telephone"></i>
+          <span class="input-label">Filter</span>
+          <input class="" type="tel" ng-model="searchQuery" placeholder="Enter 5 Number Prefix" my-maxlength="5">
+          <button ng-click="searchQuery = null" class="ion-ios7-close-outline"  ></button>
+      </a>
+
+      <label class="pull-right">
+          <a class="item item-input item-icon-left item-icon-right list card">
+          <span class="pull-right">Showing   {{(maintenance.responseData.feed.entries | filter:searchQuery).length }} Maintenance Alerts </span>
+          <span class="pull-right"> Last Updated : {{ timestamp | date:'dd/MM/yyyy HH:mm:ss'}} </span>
+          </a>
+      </label>
+      <ion-item class="item-text-wrap list card assertive" ng-show="(maintenance.responseData.feed.entries | filter:searchQuery).length==0">Sorry No Results Found</ion-item>
     <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+      <ion-item class="item-text-wrap list card" ng-repeat="entry in maintenance.responseData.feed.entries | filter:searchQuery" href="#/app/playlists/{{alert.id}}" >
+          <!--<h2 ng-if="!entry.length" class="assertive">I'm sorry there are no results</h2>-->
+          <p ng-show="(maintenance.responseData.feed.entries | filter:searchQuery).length==0">Sorry No Result Found</p>
+          <h2 class="assertive" ng-bind="entry.title"></h2>
+          <br />
+          <span ng-bind-html="entry.content"></span>
+
+
       </ion-item>
     </ion-list>
   </ion-content>

@@ -112,4 +112,15 @@ angular.module('starter.controllers', [])
     })
 
     .controller('AlertstCtrl', function($scope, $stateParams, Task) {
+    })
+
+// Sessions controler gets list of sessions for a day
+    .controller('BtMaintenanceCtrl', function ($scope, $stateParams, Sessions, Favs) {
+
+
+            Sessions.schedule().then(function (maintenance) {
+                $scope.maintenance = maintenance;
+            })
+
+            $scope.timestamp = localStorage["timestamp"];
     });

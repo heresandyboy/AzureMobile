@@ -1,0 +1,29 @@
+<ion-view title="Feedback">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+    <ion-content class="has-header"> <!--overflow-scroll="true"-->
+        <a class="item item-input item-icon-left item-icon-right list card">
+            <i class="ion-android-search"></i>
+            <span class="input-label">Enter search term</span>
+            <input class="" type="tel" ng-model="searchQuery" placeholder="Enter 5 Number Prefix" my-maxlength="5">
+            <button ng-click="searchQuery = null" class="button ion-android-close "  ></button>
+        </a>
+        <ion-item class="item-text-wrap list card assertive" ng-show="(feedback | filter:searchQuery).length==0">Sorry No Results Found</ion-item>
+        <ion-list>
+            <ion-item class="item-text-wrap list card" ng-repeat="item in feedback | filter:searchQuery" href="#/app/playlists/{{alert.id}}" >
+                <!--<h2 ng-if="!entry.length" class="assertive">I'm sorry there are no results</h2>-->
+                <!--<p ng-show="(feedback| filter:searchQuery).length==0">Sorry No Result Found</p>-->
+                <h2 class="" ng-bind="item.description"></h2>
+                <br />
+                <span ng-bind-html="item.typeid"></span>
+
+
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="bar bar-footer bar-positive">
+        <button ng-click="openForm()" class="button button-icon icon ion-android-add pull-right">Feedback</button>
+        <!--<a href="https://andyainsworth.azure-mobile.net/tables/task/:id?__systemProperties=*">TRY THIS</a>-->
+    </ion-footer-bar>
+</ion-view>

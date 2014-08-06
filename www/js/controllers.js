@@ -123,4 +123,60 @@ angular.module('starter.controllers', [])
             })
 
             $scope.timestamp = localStorage["timestamp"];
+    })
+
+    .controller('FeedbackCtrl', function($scope, $stateParams, $ionicModal, Azureservice) {
+
+        /*var feedback;
+        $scope.feedback =  {
+            description: "",
+            typeid: ""
+        };*/
+
+        Azureservice.query('Feedback', {})
+            .then(function(feedback){
+                //Assign the results to a $scope variable
+                $scope.feedback = feedback;
+
+            }, function(err){
+                console.error('There was an error quering Azure ' + err);
+            })
+
+
+
+// Modal popup for the crud, uses same scope
+        $ionicModal.fromTemplateUrl('templates/feedbackpopup.html', {
+            scope: $scope
+        }).then(function(modal) {
+            $scope.modal = modal;
+        });
+
+        // Close modal
+        $scope.closeForm = function() {
+            $scope.modal.hide();
+        };
+
+        // Open modal
+        $scope.openForm = function() {
+            $scope.modal.show();
+        };
+
+        $scope.submit = function () {
+
+            Azureservice.insert('Feedback', {
+                description: $scope.feedback.description,
+                typeid: $scope.feedback.typeid,
+                userid: "12345"
+            })
+                .then(function(){
+                    console.log('Insert successful');
+                }, function(err){
+                    console.error('Azure Error: ' + err);
+                })
+            $scope.closeForm();
+            console.log($scope.feedback.description);
+            console.log("Description above");
+        }
+
+
     });

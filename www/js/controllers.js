@@ -144,7 +144,7 @@ angular.module('starter.controllers', [])
 
 
 
-// Modal popup for the crud, uses same scope
+        // Modal popup for the crud, uses same scope
         $ionicModal.fromTemplateUrl('templates/feedbackpopup.html', {
             scope: $scope
         }).then(function(modal) {

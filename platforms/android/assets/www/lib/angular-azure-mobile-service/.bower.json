@@ -1,0 +1,20 @@
+{
+  "author": "Terry Moore II",
+  "name": "angular-azure-mobile-service",
+  "description": "Angular Azure Mobile Service",
+  "homepage": "https://github.com/TerryMooreII/angular-azure-mobile-service.git",
+  "main": "./angular-azure-mobile-service.js",
+  "dependencies": {
+    "angular": ">= 1.0.0"
+  },
+  "_release": "e02092b686",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e02092b686480e66b0810c1777c0323f8d4cecea"
+  },
+  "_source": "git://github.com/TerryMooreII/angular-azure-mobile-service.git",
+  "_target": "*",
+  "_originalSource": "angular-azure-mobile-service",
+  "_direct": true
+}

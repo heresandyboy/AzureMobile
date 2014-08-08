@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/templates/playlists.html" line="21" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/www/templates/playlists.html" line="70" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a826d4c-95eb-4242-8ace-20b12e09aa4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/feedback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/feedbackpopup.html" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\js\3mobile-service.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\css\ionic-custom.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular-ui\angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular-ui\angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular-animate.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\js\angular\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\www\lib\ionic\version.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\css\ionic-custom.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\js\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\Andy\ionic\AzureMobile\platforms\android\assets\www\lib\ionic\version.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menu.html" afterPath="$PROJECT_DIR$/www/templates/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/servicealerts.html" afterPath="$PROJECT_DIR$/www/templates/servicealerts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/feedback.html" afterPath="$PROJECT_DIR$/www/templates/feedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/menu.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/playlist.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/playlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/playlist.html" afterPath="$PROJECT_DIR$/www/templates/playlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/playlists.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/playlists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/playlists.html" afterPath="$PROJECT_DIR$/www/templates/playlists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/servicealerts.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/servicealerts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AzureMobile.iws" />
@@ -42,34 +52,27 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="vm:168" pinned="false" current="false" current-in-tab="true">
-              <entry file="mock:///vm:168">
-                <provider selected="true" editor-type-id="vmFileEditor">
-                  <state />
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="AzureMobile" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="2244">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33280757" vertical-offset="1897" max-vertical-offset="3196">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3196">
+              <caret line="141" column="73" selection-start-line="141" selection-start-column="73" selection-end-line="141" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -88,8 +91,28 @@
       <file leaf-file-name="servicealerts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/servicealerts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="51" max-vertical-offset="748">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="36" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="748">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playlists.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/templates/playlists.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="1479">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playlist.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/playlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -98,18 +121,8 @@
       <file leaf-file-name="feedback.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/feedback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="595">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playlists.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/playlists.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="646">
-              <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="595">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -118,8 +131,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="765">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state vertical-scroll-proportion="-17.5" vertical-offset="157" max-vertical-offset="765">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -128,38 +141,8 @@
       <file leaf-file-name="mobile-service.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/mobile-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="1632">
-              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-mobile-service.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/3-mobile-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1479">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="2244">
-              <caret line="29" column="74" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="799">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1632">
+              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -196,12 +179,13 @@
         <option value="$PROJECT_DIR$/www/templates/servicealerts.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
-        <option value="$PROJECT_DIR$/www/templates/playlists.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/templates/feedback.html" />
         <option value="$PROJECT_DIR$/www/templates/feedbackpopup.html" />
         <option value="$PROJECT_DIR$/www/js/mobile-service.js" />
+        <option value="$PROJECT_DIR$/www/templates/feedback.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/templates/playlist.html" />
+        <option value="$PROJECT_DIR$/www/templates/playlists.html" />
       </list>
     </option>
   </component>
@@ -349,6 +333,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AzureMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AzureMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -489,8 +491,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="1272" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36634716" sideWeight="0.7336523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -555,53 +557,13 @@
       <breakpoints>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/www/js/mobile-service.js</url>
-          <line>19</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/mobile-service.js</url>
-          <line>48</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/controllers.js</url>
-          <line>117</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/mobile-service.js</url>
           <line>41</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/www/js/mobile-service.js</url>
-          <line>25</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/controllers.js</url>
-          <line>120</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/mobile-service.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/controllers.js</url>
-          <line>121</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/controllers.js</url>
-          <line>122</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/www/js/controllers.js</url>
-          <line>124</line>
-          <option name="timeStamp" value="86" />
+          <line>48</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -612,33 +574,10 @@
           <properties uncaughtOnly="true" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="87" />
+      <option name="time" value="89" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/templates/sessions-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1071">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/mobile-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="1632">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
-          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/3app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1921">
@@ -907,66 +846,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+    <entry file="file://$PROJECT_DIR$/www/js/3-mobile-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="2244">
-          <caret line="29" column="74" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="799">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/servicealerts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615" vertical-offset="51" max-vertical-offset="748">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.02681388" vertical-offset="238" max-vertical-offset="1479">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/lib/angular-azure-mobile-service/angular-azure-mobile-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24132492" vertical-offset="0" max-vertical-offset="5338">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.21451104" vertical-offset="0" max-vertical-offset="5338">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/playlists.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="646">
-          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="765">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/3-mobile-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="595">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="102" max-vertical-offset="799">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -979,18 +878,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/mobile-service.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="1632">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        <state vertical-scroll-proportion="-17.5" vertical-offset="157" max-vertical-offset="765">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="2244">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33280757" vertical-offset="1897" max-vertical-offset="3196">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="3196">
+          <caret line="141" column="73" selection-start-line="141" selection-start-column="73" selection-end-line="141" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="247721" max-vertical-offset="372096">
+          <caret line="14584" column="0" selection-start-line="14584" selection-start-column="0" selection-end-line="14584" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/playlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/servicealerts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="748">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/see.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/mobile-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1632">
+          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="595">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/playlists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="1479">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>

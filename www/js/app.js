@@ -20,11 +20,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
         });
     })
 
-    .directive('myMaxlength', function() {
+    .directive('andyMaxlength', function() {
         return {
             require: 'ngModel',
             link: function (scope, element, attrs, ngModelCtrl) {
-                var maxlength = Number(attrs.myMaxlength);
+                var maxlength = Number(attrs.andyMaxlength);
                 function fromUser(text) {
                     if (text.length > maxlength) {
                         var transformedInput = text.substring(0, maxlength);

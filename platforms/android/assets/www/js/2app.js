@@ -51,7 +51,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                 url: "/playlists",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/playlists.html",
+                        templateUrl: "../../../../../www/templates/maintenance.html",
                         controller: 'PlaylistsCtrl'
                     }
                 }
@@ -61,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                 url: "/servicealerts",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/servicealerts.html",
+                        templateUrl: "../../../../../www/templates/azure-crud-sample.html",
                         controller: 'AlertsCtrl'
                     }
                 }
@@ -71,7 +71,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                 url: "/playlists/:playlistId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/playlist.html",
+                        templateUrl: "../../../../../www/templates/maintenanceitem.html",
                         controller: 'PlaylistCtrl'
                     }
                 }
@@ -81,7 +81,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
                 url: "/servicealerts/:alertsId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/servicealert.html",
+                        templateUrl: "../../../../../www/templates/azure-crud-sample-item.html",
                         controller: 'AlertsCtrl'
                     }
                 }

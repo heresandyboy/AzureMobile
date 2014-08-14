@@ -75,8 +75,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 url: "/playlists",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/playlists.html",
-                        controller: 'BtMaintenanceCtrl'
+                        templateUrl: "../../../../../www/templates/maintenance.html",
+                        controller: 'MaintenanceCtrl'
                     }
                 }
             })
@@ -85,7 +85,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 url: "/servicealerts",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/servicealerts.html",
+                        templateUrl: "../../../../../www/templates/azure-crud-sample.html",
                         controller: 'AlertsCtrl'
                     }
                 }
@@ -105,7 +105,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 url: "/playlists/:playlistId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/playlist.html",
+                        templateUrl: "../../../../../www/templates/maintenanceitem.html",
                         controller: 'PlaylistCtrl'
                     }
                 }
@@ -115,7 +115,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 url: "/servicealerts/:taskId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/servicealert.html",
+                        templateUrl: "../../../../../www/templates/azure-crud-sample-item.html",
                         controller: 'AlertCtrl'
                     }
                 }

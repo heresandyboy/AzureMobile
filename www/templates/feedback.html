@@ -11,7 +11,7 @@
         </a>
         <ion-item class="item-text-wrap list card assertive" ng-show="(feedback | filter:searchQuery).length==0">Sorry No Results Found</ion-item>
         <ion-list>
-            <ion-item class="item-text-wrap list card" ng-repeat="item in feedback | filter:searchQuery" href="#/app/playlists/{{alert.id}}" >
+            <ion-item class="item-text-wrap list card" ng-repeat="item in feedback | filter:searchQuery" href="#/app/azure-crud-sample/{{alert.id}}" >
                 <!--<h2 ng-if="!entry.length" class="assertive">I'm sorry there are no results</h2>-->
                 <!--<p ng-show="(feedback| filter:searchQuery).length==0">Sorry No Result Found</p>-->
                 <h2 class="" ng-bind="item.description"></h2>

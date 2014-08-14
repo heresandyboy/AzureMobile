@@ -20,7 +20,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
         });
     })
 
-    .directive('andyMaxlength', function() {
+    .directive('maxlength', function() {
         return {
             require: 'ngModel',
             link: function (scope, element, attrs, ngModelCtrl) {
@@ -39,6 +39,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
         };
     })
 
+    // HTTP Provider config for Azure Mobile Service when accessed via ngResource
+    // See mobile-service.js
     .config(['$httpProvider', function ($httpProvider) { // configuring the httpProvider
         $httpProvider.defaults.headers.common['X-ZUMO-APPLICATION'] = 'RkahlgSDnwpkXUfLBfySnWDcRDZICp27'; // add the application key
         $httpProvider.defaults.headers.common['Content-Type'] = 'Application/json';
@@ -71,21 +73,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                     }
                 }
             })
-            .state('app.playlists', {
-                url: "/playlists",
+            .state('app.maintenance', {
+                url: "/maintenance",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/playlists.html",
-                        controller: 'BtMaintenanceCtrl'
+                        templateUrl: "../templates/maintenance.html",
+                        controller: 'MaintenanceCtrl'
                     }
                 }
             })
 
-            .state('app.servicealerts', {
-                url: "/servicealerts",
+            .state('app.azure-crud-sample', {
+                url: "/azure-crud-sample",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/servicealerts.html",
+                        templateUrl: "../templates/azure-crud-sample.html",
                         controller: 'AlertsCtrl'
                     }
                 }
@@ -102,25 +104,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
             })
 
             .state('app.single', {
-                url: "/playlists/:playlistId",
+                url: "/maintenance/:maintenanceId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/playlist.html",
-                        controller: 'PlaylistCtrl'
+                        templateUrl: "../templates/maintenanceitem.html",
+                        controller: 'FeedbackCtrl'
                     }
                 }
             })
 
             .state('app.singlealert', {
-                url: "/servicealerts/:taskId",
+                url: "/azure-crud-sample/:taskId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "templates/servicealert.html",
+                        templateUrl: "../templates/azure-crud-sample-item.html",
                         controller: 'AlertCtrl'
                     }
                 }
             });
         // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/app/playlists');
+        $urlRouterProvider.otherwise('/app/maintenance');
     });
 

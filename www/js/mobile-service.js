@@ -1,6 +1,7 @@
 ﻿// mobile-service.js
 'use strict';
 
+// An implementation of an Azure Mobile Service directly using ngResource (instead of the Azure Mobile service API 'http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.1.2.min.js')
 angular.module('mobileServices', ['ngResource']) // new service mobileServices depending on ngResource
     .factory('Task', function ($resource) { // declaring a MyTable resource
         return $resource('https://andyainsworth.azure-mobile.net/tables/task/:id?__systemProperties=*', { id: '@id' }, // binding to the table url
@@ -10,12 +11,13 @@ angular.module('mobileServices', ['ngResource']) // new service mobileServices d
         );
     })
 
-    .factory('Sessions', function ($http, $q) {
+    // Consuming a Jsonp service to retrieve Outages
+    // Using local storage cache data if offline
+    .factory('Outages', function ($http, $q) {
 
         return {
-
-            // The job of the factory is to get us the schedule
-            schedule: function () {
+            // factory to retrieve maintenance outages, either cached or online
+            maintenance: function () {
 
                 var isOffline = 'onLine' in navigator && !navigator.onLine,
                     cached = localStorage["sessions"],
@@ -27,12 +29,12 @@ angular.module('mobileServices', ['ngResource']) // new service mobileServices d
 
                     //Offline and no cached data - return empty object
                     if (!cached) {
-                        console.log('OFFline, no cache...');
+                        console.log('<<<<< OFFLINE, No Cache >>>>>');
                         deferred.reject();
 
                         //Offline but with cached data - return it
                     } else {
-                        console.log('OFFline, cached data...');
+                        console.log('<<<<< OFFLINE, Cached Data >>>>>');
                         deferred.resolve(angular.fromJson(cached));
                     }
 
@@ -40,10 +42,10 @@ angular.module('mobileServices', ['ngResource']) // new service mobileServices d
 
                     //Online, with cached data or expired cache
                     if (cached && timestamp && timestamp > new Date().getTime() - duration) {
-                        console.log('ONline, cached data...');
+                        console.log('<<<<< ONLINE, Cached data >>>>>');
                         deferred.resolve(angular.fromJson(cached));
 
-                        // Online, with no or expired data
+                    // Online, with no or expired data,
                     } else {
                         console.log('<<<<< ONLINE, from RSS >>>>>');
                         var data = $http
@@ -64,8 +66,10 @@ angular.module('mobileServices', ['ngResource']) // new service mobileServices d
             }
         }
 
-    })
-    .factory('Favs', function () {
+    });
+
+    // Not yet in, may use to store user defined settings
+/*    .factory('Favs', function () {
 
         // This factory gets and sets the favourites
         return {
@@ -87,4 +91,4 @@ angular.module('mobileServices', ['ngResource']) // new service mobileServices d
 
         }
 
-    });
+    })*/

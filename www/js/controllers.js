@@ -37,20 +37,6 @@ angular.module('starter.controllers', [])
         };
     })
 
-    .controller('PlaylistsCtrl', function($scope) {
-        $scope.playlists = [
-            { title: 'Reggae', id: 1 },
-            { title: 'Chill', id: 2 },
-            { title: 'Dubstep', id: 3 },
-            { title: 'Indie', id: 4 },
-            { title: 'Rap', id: 5 },
-            { title: 'Cowbell', id: 6 }
-        ];
-    })
-
-    .controller('PlaylistCtrl', function($scope, $stateParams) {
-    })
-
     .controller('AlertsCtrl', function($scope, $rootScope, $ionicModal, Task) {
         $scope.tasks = Task.query(); // load all tasks
         $rootScope.tasks = $scope.tasks; // pipe the tasks into rootScope
@@ -102,6 +88,9 @@ angular.module('starter.controllers', [])
 
     })
 
+    .controller('AlertsCtrl', function($scope, $stateParams, Task) {
+    })
+
     .controller('AlertCtrl', function($scope, $stateParams, $rootScope, Task){
         $rootScope.tasks.forEach(function (task) {
             if (task.id != $stateParams.taskId) {
@@ -111,16 +100,14 @@ angular.module('starter.controllers', [])
         })
     })
 
-    .controller('AlertstCtrl', function($scope, $stateParams, Task) {
-    })
 
-// Sessions controler gets list of sessions for a day
-    .controller('BtMaintenanceCtrl', function ($scope, $stateParams, Sessions, Favs) {
+    // Maintenance controller gets list of sessions for a day
+    .controller('MaintenanceCtrl', function ($scope, $stateParams, Outages) {
 
 
-            Sessions.schedule().then(function (maintenance) {
+            Outages.maintenance().then(function (maintenance) {
                 $scope.maintenance = maintenance;
-            })
+            });
 
             $scope.timestamp = localStorage["timestamp"];
     })
@@ -140,7 +127,7 @@ angular.module('starter.controllers', [])
 
             }, function(err){
                 console.error('There was an error quering Azure ' + err);
-            })
+            });
 
 
 
@@ -172,7 +159,7 @@ angular.module('starter.controllers', [])
                     console.log('Insert successful');
                 }, function(err){
                     console.error('Azure Error: ' + err);
-                })
+                });
             $scope.closeForm();
             console.log($scope.feedback.description);
             console.log("Description above");

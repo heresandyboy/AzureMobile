@@ -6,7 +6,7 @@
         <div class="bar bar-header item-input-inset">
             <label class="item-input-wrapper">
                 <i class="icon icon- ion-search placeholder-icon"></i>
-                <input type="tel" ng-model="searchQuery" placeholder="Enter 5 Number Prefix" andy-maxlength="5">
+                <input type="tel" ng-model="searchQuery" placeholder="Enter 5 Number Prefix" max-length="5">
             </label>
             <button ng-if="searchQuery.length" ng-click="$parent.searchQuery = null" class="button button-small padding">
                 Clear

@@ -67,7 +67,7 @@
         <ion-list>
             <ion-item class="item-text-wrap list card"
                       ng-repeat="entry in maintenance.responseData.feed.entries | filter:searchQuery"
-                      href="#/app/playlists/{{alert.id}}">
+                      href="#/app/maintenanceitem/{{alert.id}}">
                 <!--<h2 ng-if="!entry.length" class="assertive">I'm sorry there are no results</h2>-->
 
                 <h2 class="assertive" ng-bind="entry.title"></h2>

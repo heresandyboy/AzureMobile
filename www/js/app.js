@@ -77,7 +77,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 url: "/maintenance",
                 views: {
                     'menuContent' :{
-                        templateUrl: "../templates/maintenance.html",
+                        templateUrl: "templates/maintenance.html",
+                        controller: 'MaintenanceCtrl'
+                    }
+                }
+            })
+
+            .state('app.single', {
+                url: "/maintenance/:taskId",
+                views: {
+                    'menuContent' :{
+                        templateUrl: "templates/maintenanceitem.html",
                         controller: 'MaintenanceCtrl'
                     }
                 }
@@ -87,8 +97,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 url: "/azure-crud-sample",
                 views: {
                     'menuContent' :{
-                        templateUrl: "../templates/azure-crud-sample.html",
+                        templateUrl: "templates/azure-crud-sample.html",
                         controller: 'AlertsCtrl'
+                    }
+                }
+            })
+
+            .state('app.singlealert', {
+                url: "/azure-crud-sample-item/:taskId",
+                views: {
+                    'menuContent' :{
+                        templateUrl: "templates/azure-crud-sample-item.html",
+                        controller: 'AlertCtrl'
                     }
                 }
             })
@@ -103,26 +123,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mobileServices', 'az
                 }
             })
 
-            .state('app.single', {
-                url: "/maintenance/:maintenanceId",
+            .state('app.feedbackitem', {
+                url: "/feedbackitem/:taskId",
                 views: {
                     'menuContent' :{
-                        templateUrl: "../templates/maintenanceitem.html",
-                        controller: 'FeedbackCtrl'
-                    }
-                }
-            })
-
-            .state('app.singlealert', {
-                url: "/azure-crud-sample/:taskId",
-                views: {
-                    'menuContent' :{
-                        templateUrl: "../templates/azure-crud-sample-item.html",
+                        templateUrl: "templates/feedbackitem.html",
                         controller: 'AlertCtrl'
                     }
                 }
             });
         // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/app/maintenance');
+        $urlRouterProvider.otherwise('/app/feedback');
     });
 
